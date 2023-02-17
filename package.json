@@ -1,16 +1,16 @@
 {
   "name": "traaittplatform-wallet-backend",
-  "version": "5.1.1",
-  "description": "",
+  "version": "5.1.2",
+  "description": "![image](https://github.com/TRRXITTE/traaittPlatform/blob/master/docs/etrx.png)",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
   "scripts": {
     "prepublish": "npm run-script build",
-    "build": "./node_modules/.bin/tsc",
+    "build": "tsc",
     "test": "npm run-script build && node dist/tests/tests.js",
     "test-all": "npm run-script build && node dist/tests/tests.js --do-performance-tests",
-    "style": "./node_modules/.bin/tslint -c tslint.json 'lib/**/*.ts'",
-    "docs": "./node_modules/.bin/typedoc --options ./typedoc.js ./lib/; touch docs/.nojekyll",
+    "style": "tslint -c tslint.json 'lib/**/*.ts'",
+    "docs": "typedoc --options ./typedoc.js ./lib/; touch docs/.nojekyll",
     "prepare": "npm run-script build"
   },
   "files": [
@@ -27,8 +27,8 @@
     "request-promise-native": "^1.0.8",
     "traaittplatform-utils": "^1.0.21",
     "traaittplatform-wallet-backend": "^5.0.7",
-    "tsc": "^1.20150623.0",
-    "typescript": "^3.6.4",
+    "tsc": "^2.0.4",
+    "typescript": "^3.9.10",
     "webpack": "^4.41.5"
   },
   "devDependencies": {
@@ -40,5 +40,19 @@
     "tslint": "^5.20.1",
     "typedoc": "^0.15.1",
     "typedoc-plugin-no-inherit": "^1.1.10"
-  }
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TRRXITTE/traaittPlatform-wallet-backend-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TRRXITTE/traaittPlatform-wallet-backend-js/issues"
+  },
+  "homepage": "https://github.com/TRRXITTE/traaittPlatform-wallet-backend-js#readme"
 }

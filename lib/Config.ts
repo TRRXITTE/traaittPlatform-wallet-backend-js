@@ -209,7 +209,7 @@ export class Config implements IConfig {
 
     /**
      * The address prefix your coin uses - you can find this in CryptoNoteConfig.h.
-     * In traaittPlatform, this converts to TR
+     * In traaittPlatform, this converts to iETRX
      */
     public addressPrefix: number = 461586806;
 
@@ -266,13 +266,13 @@ export class Config implements IConfig {
      */
     public mixinLimits: MixinLimits = new MixinLimits([
         /* Height: 440,000, minMixin: 0, maxMixin: 100, defaultMixin: 3 */
-        new MixinLimit(7000000, 0, 100, 0),
+        new MixinLimit(1000000, 3, 8, 8),
 
         /* At height of 620000, static mixin of 7 */
-        new MixinLimit(23000000, 7),
+        new MixinLimit(2300000, 10),
 
         /* At height of 800000, static mixin of 3 */
-        new MixinLimit(47000000, 3),
+        new MixinLimit(4500000, 15),
     ], 3 /* Default mixin of 3 before block 440,000 */);
 
     /**

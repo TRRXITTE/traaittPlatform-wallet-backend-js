@@ -1,14 +1,14 @@
-![image](https://user-images.githubusercontent.com/34389545/35821974-62e0e25c-0a70-11e8-87dd-2cfffeb6ed47.png)
+![image](https://github.com/TRRXITTE/traaittPlatform/blob/master/docs/etrx.png)
 
 #### Master Build Status
-[![Build Status](https://travis-ci.org/traaittplatform/traaittplatform-wallet-backend-js.svg?branch=master)](https://travis-ci.org/traaittplatform/traaittplatform-wallet-backend-js)
+[![Build Status](https://travis-ci.org/trrxitte/traaittplatform-wallet-backend-js.svg?branch=master)](https://travis-ci.org/trrxitte/traaittplatform-wallet-backend-js)
 
 #### NPM
 [![NPM](https://nodei.co/npm/traaittplatform-wallet-backend.png?compact=true)](https://npmjs.org/package/traaittplatform-wallet-backend)
 
 #### Github
 
-https://github.com/traaittplatform/traaittplatform-wallet-backend-js
+https://github.com/trrxitte/traaittplatform-wallet-backend-js
 
 # traaittplatform-wallet-backend
 
